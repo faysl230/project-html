@@ -1,0 +1,517 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+[class*="col-"]{
+    float: left;
+    border:1px solid aqua;
+}
+.row:after{
+    content:' ';
+    clear: both;
+    display: block;
+}
+
+.header-height{height: 200px;}
+.menu-height{height: 50px;}
+.content-height{height: auto;}
+.big-footer-height{height: 250px;}
+.footer-height{height: 100px;}
+
+.main-ul{list-style-type: none;}
+.main-ul li{
+    float: left;
+    width: 120px;
+    border: 1px solid blueviolet;
+}
+.main-ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 47px;
+    padding-top: 15px;
+    background-color: black;
+    color: #fff;
+    transition: 2s;
+}
+.main-ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+/*.div-one{
+    height: 200px;
+    width: 200px;
+    //background-color: red;
+    margin: 20px 10px 10px 20px;
+    //border-radius: 100px 100px 0px 0px;
+    /transform: skewY(30deg);
+    float: left;
+    background: 
+}
+.div-two{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 20px 10px 10px 20px;
+//border-radius: 100px 100px 0px 0px;
+    transform: skewY(-30deg);
+    float: left;
+}*/
+.letter:after{
+    content:' ';
+    clear: both;
+    display: block;
+
+}
+.letter{ margin: 20px 10px;}
+.div-one{
+    height: 100px;
+    width: 10px;
+    background-color: red;
+    margin: 0px 0px 0px 15px;
+    transform: skew(-20deg);
+    float: left;
+}
+.div-two{
+    height: 100px;
+    width: 10px;
+    background-color: red;
+    margin: 0px 00px 0px 30px;
+    transform: skewX(20deg);
+    float: left;
+}
+
+.div-three{
+    height: 10px;
+    width: 46px;
+    background-color: red;
+    margin: 50px 00px 0px -50px;
+    float: left;
+}
+
+.b-one{
+    height: 50px;
+    width: 50px;
+    border: 10px solid red;
+    border-radius: 0px 25px 25px 0px;
+}
+.b-two{
+    height: 50px;
+    width: 50px;
+    border: 10px solid red;
+    border-radius: 0px 25px 25px 0px;
+}
+.c-one{
+    height: 100px;
+    width: 75px;
+    border-left: 10px solid rebeccapurple;
+    border-top: 10px solid rebeccapurple;
+    border-bottom: 10px solid rebeccapurple;
+    border-radius: 50px 0 0 50px;
+}
+.d-one{
+    height: 100px;
+    width: 75px;
+    border: 10px solid rebeccapurple;
+    border-radius: 0 35px 35px 0;
+}
+.e-one{
+    height: 50px;
+    width: 70px;
+    border-left:10px solid blueviolet;
+    border-top:10px solid blueviolet;
+    border-bottom:5px solid blueviolet;
+}
+.e-two{
+    height: 50px;
+    width: 70px;
+    border-left:10px solid blueviolet;
+    border-top:5px solid blueviolet;
+    border-bottom:10px solid blueviolet;
+}
+.f-one{
+    height: 50px;
+    width: 70px;
+    border-left:10px solid blueviolet;
+    border-top:10px solid blueviolet;
+    border-bottom:5px solid blueviolet;
+}
+.f-two{
+    height: 50px;
+    width: 70px;
+    border-left:10px solid blueviolet;
+    border-top:5px solid blueviolet;
+}
+.g-one{
+    height: 100px;
+    width: 60px;
+    border-top:10px solid darkmagenta;
+    border-left:10px solid darkmagenta;
+    border-bottom:10px solid darkmagenta;
+    border-radius: 45px 0 0 45px;
+    float: left;
+}
+.g-two{
+    height: 40px;
+    width: 10px;
+    background-color:darkmagenta;
+    float: left;
+    margin-top: 60px;
+}
+.g-three{
+    height: 45px;
+    width: 50px;
+    border-top:10px solid darkmagenta;
+    border-right: 10px solid darkmagenta;
+    float: left;
+    margin-top: 55px ;
+    margin-left: -25px;
+}
+.h-one{
+    height: 50px;
+    width: 70px;
+    border-left: 10px solid rebeccapurple;
+    border-bottom:5px solid rebeccapurple;
+    border-right:10px solid rebeccapurple ;
+}
+.h-two{
+    height: 50px;
+    width: 70px;
+    border-left: 10px solid rebeccapurple;
+    border-top:5px solid rebeccapurple;
+    border-right:10px solid rebeccapurple ;
+}
+.i-one{
+    height: 100px;
+    width: 10px;
+    background-color: darkmagenta;
+}
+.j-one{
+    height:70px;
+    width: 40px;
+    border-top: 10px solid rebeccapurple;
+    border-right: 10px solid rebeccapurple;
+    margin-left: 10px;
+}
+.j-two{
+    height:30px;
+    width: 50px;
+    border-bottom: 10px solid rebeccapurple;
+    border-right: 10px solid rebeccapurple;
+    border-left: 10px solid rebeccapurple;
+    border-radius: 0 0 20px 20px;
+}
+.k-div:after{
+    display: block;
+}
+.k-one{
+    height: 50px;
+    width: 10px;
+    background-color: blue;
+    float: left;
+}
+.k-two{
+    height:50px;
+    width:10px;
+    transform: skew(-40deg);
+    float: left;
+    background-color: blue;
+    margin-left: 10px;
+}
+.k-three{
+    height: 50px;
+    width: 10px;
+    background-color: blue;
+    float: left;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+.k-four{
+    height:50px;
+    width:10px;
+    transform: skew(40deg);
+    float: left;
+    background-color: blue;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.l-one{
+    height: 100px;
+    width: 70px;
+    border-left: 10px solid darkmagenta;
+    border-bottom: 10px solid darkmagenta;
+}
+.m-one{
+    height: 100px;
+    width: 10px;
+    background-color: darkmagenta;
+    float: left;
+}
+.m-two{
+    height: 50px;
+    width: 10px;
+    transform: skew(30deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 10px;
+}
+.m-three{
+    height: 50px;
+    width: 10px;
+    transform: skew(-30deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 20px;
+}
+.m-four{
+    height: 100px;
+    width: 10px;
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 10px;
+}
+.n-one{
+    height: 100px;
+    width: 10px;
+    background-color: darkmagenta;
+    float: left;
+}
+.n-two{
+    height: 100px;
+    width: 10px;
+    transform: skew(30deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 20px;
+}
+.n-three{
+    height: 100px;
+    width: 10px;
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 20px;
+}
+.o-one{
+    border:10px solid red;
+    height: 100px;
+    width: 70px;
+    border-radius: 35px;
+}
+.p-one{
+    height: 50px;
+    width: 50px;
+    border:10px solid green;
+    border-radius: 0 23px 23px 0;
+}
+.p-two{
+    height: 50px;
+    width: 10px;
+    background-color: green;
+}
+.q-one{
+    height: 100px;
+    width: 70px;
+    border:10px solid goldenrod;
+    border-radius: 35px;
+    float: left;
+}
+.q-two{
+    height: 50px;
+    width: 10px;
+    background-color: goldenrod;
+    transform: skew(40deg);
+    float: left;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.r-one{
+    height: 50px;
+    width: 50px;
+    border:10px solid gold;
+    border-radius: 0 23px 23px 0;
+}
+.r-two{
+    height: 50px;
+    width: 10px;
+    background-color: gold;
+    float: left;
+}
+.r-three{
+    height: 50px;
+    width: 15px;
+    background-color: gold;
+    transform: skew(40deg);
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.s-one{
+    height:40px;
+    width: 70px;
+    border-top: 10px solid crimson;
+    border-left: 10px solid crimson;
+    border-right: 10px solid crimson;
+    border-radius: 30px 30px 0 0;
+}
+.s-two{
+    height: 40px;
+    width: 10px;
+    background-color: crimson;
+    transform: skew(55deg);
+    float: left;
+    margin-left: 30px;
+
+
+}
+.s-three{
+    height:40px;
+    width: 70px;
+    border-bottom: 10px solid crimson;
+    border-left: 10px solid crimson;
+    border-right: 10px solid crimson;
+    border-radius: 0 0 30px 30px;
+    margin-top: 40px;
+}
+.t-one{
+    height: 10px;
+    width: 70px;
+    background-color: darkmagenta;
+}
+.t-two{
+    height: 90px;
+    width: 10px;
+    background-color: darkmagenta;
+    margin-left: 30px;
+}
+.u-one{
+    height: 100px;
+    width: 70px;
+    border-bottom: 10px solid crimson;
+    border-left: 10px solid crimson;
+    border-right: 10px solid crimson;
+    border-radius: 0 0 30px 30px;
+}
+.v-one{
+    height: 100px;
+    width: 10px;
+    transform: skew(20deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 20px;
+}
+.v-two{
+    height: 100px;
+    width: 10px;
+    transform: skew(-20deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 30px;
+}
+.w-one{
+    height: 100px;
+    width: 10px;
+    transform: skew(20deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 20px;
+}
+.w-two{
+    height: 100px;
+    width: 10px;
+    transform: skew(-20deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 30px;
+}
+.w-three{
+    height: 100px;
+    width: 10px;
+    transform: skew(20deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 0px;
+}
+.w-four{
+    height: 100px;
+    width: 10px;
+    transform: skew(-20deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 30px;
+}
+.x-one{
+    height: 100px;
+    width: 10px;
+    transform: skew(-30deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 40px;
+}
+.x-two{
+    height: 100px;
+    width: 10px;
+    transform: skew(30deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: -10px;
+}
+.y-one{
+    height: 40px;
+    width: 10px;
+    transform: skew(-30deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: 50px;
+}
+.y-two{
+    height: 40px;
+    width: 10px;
+    transform: skew(30deg);
+    background-color: darkmagenta;
+    float: left;
+    margin-left: -30px;
+}
+.y-three{
+    height: 40px;
+    width: 10px;
+    background-color:darkmagenta ;
+    margin-top: 40px;
+    margin-left: -20px;
+    float: left;
+}
+.z-one{
+    height: 10px;
+    width: 70px;
+    background-color: cadetblue;
+}
+.z-two{
+    height: 80px;
+    width: 10px;
+    transform: skew(-35deg);
+    background-color: cadetblue;
+    margin-left: 31px;
+}
+.z-three {
+    height: 10px;
+    width: 70px;
+    background-color: cadetblue;
+    margin-left: 2px;
+}
